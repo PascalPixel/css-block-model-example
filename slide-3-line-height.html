@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>3. Line Height and Inline in Block, Blocks in Inline</title>
+    <style>
+      body {
+        margin: 0;
+        color: white;
+        font-family: sans-serif;
+        line-height: 50px;
+      }
+
+      div {
+        background: maroon;
+        color: white;
+      }
+      span {
+        background: navy;
+        color: white;
+      }
+      p {
+        background: mediumseagreen;
+        color: white;
+      }
+      b {
+        background: peru;
+        color: white;
+      }
+      i {
+        background: red;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <span>This is an inline element inside a block element</span>
+      <div>This is a block element inside a block element</div>
+    </div>
+    <span>
+      <span>This is an inline element inside an inline element</span>
+      <div>This is a block element inside an inline element</div>
+    </span>
+  </body>
+</html>
